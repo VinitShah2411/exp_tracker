@@ -1,6 +1,6 @@
 name: on push github actions
-on:
-  push:
+'on': 
+ push:
     branches:
       - "master"
 
