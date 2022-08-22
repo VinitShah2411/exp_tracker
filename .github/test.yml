@@ -2,7 +2,7 @@ name: on push github actions
 on:
   push:
     branches:
-      - "main"
+      - "master"
 
 jobs:
   print-stuff-from-job-1:
@@ -16,8 +16,8 @@ jobs:
       - run: echo "Hello, from job 2 world!🚀"
 
 
-  print-readmeMD:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - run: cat ./README.md 
+  # print-readmeMD:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v3
+  #     - run: cat ./README.md 
