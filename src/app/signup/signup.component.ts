@@ -11,7 +11,7 @@ export class SignupComponent  {
   email="" // auto - string 
   password:String=""
   
-printData(){
+  signup(){
   console.log(this.firstName)
   console.log(this.email);
   console.log(this.password);
